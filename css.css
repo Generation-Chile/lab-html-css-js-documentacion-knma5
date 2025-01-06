@@ -1,75 +1,93 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    text-align: center;
-    padding: 50px 0;
-    background-image: url('https://res.cloudinary.com/dh6ipg8bj/image/upload/v1735820476/Purple_and_White_Modern_Computer_Class_Google_Classroom_Header_ziwi71.png');
-    background-size: cover;
-    background-position: top;
-    color: #fff;
-    height: 40vh;
-    overflow: hidden;
-  }
-  #cta h1 {
-    font-size: 4em;
-    margin: 0;
-    margin-top: 10px;
-    text-shadow: 2px 2px 2px #00000072;
-  }
+  /* Establece la fuente principal de la página y elimina márgenes y relleno predeterminados */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  #cta h1 span {
-    color: #007bff;
-  }
+header {
+  /* Centra el texto, agrega relleno y establece una imagen de fondo con un ajuste y posición específicos */
+  text-align: center;
+  padding: 50px 0;
+  background-image: url('https://res.cloudinary.com/dh6ipg8bj/image/upload/v1735820476/Purple_and_White_Modern_Computer_Class_Google_Classroom_Header_ziwi71.png');
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: top; /* Posiciona la imagen en la parte superior */
+  color: #fff; /* Establece el color del texto como blanco */
+  height: 40vh; /* Define la altura del encabezado como el 40% de la altura de la ventana */
+  overflow: hidden; /* Oculta cualquier contenido desbordado */
+}
 
-  section {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+#cta h1 {
+  /* Estilo para el encabezado principal dentro de la sección CTA */
+  font-size: 4em; /* Tamaño de fuente grande */
+  margin: 0;
+  margin-top: 10px; /* Espaciado superior pequeño */
+  text-shadow: 2px 2px 2px #00000072; /* Sombra para resaltar el texto */
+}
 
-  section#form {
-    background-color: #6abae2b4;
-  }
+#cta h1 span {
+  /* Resalta el texto dentro del encabezado principal cambiando el color */
+  color: #007bff; /* Azul vibrante */
+}
 
-  form {
-    margin: 0 auto;
-    max-width: 350px;
-    text-align: left;
-    margin-bottom: 100px;
-  }
-  form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  form input,
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  form button {
-    width: 50%;
-    margin-left: 25%;
-  }
-  footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+section {
+  /* Define el estilo general de las secciones */
+  padding: 50px 20px; /* Espaciado interno */
+  text-align: center; /* Centra el contenido */
+}
+
+button {
+  /* Estilo general para los botones */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 1em; /* Tamaño de fuente base */
+  background-color: #007bff; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+  border: none; /* Elimina bordes */
+  cursor: pointer; /* Cambia el cursor a puntero cuando pasa sobre el botón */
+}
+
+section#form {
+  /* Estilo específico para la sección del formulario */
+  background-color: #6abae2b4; /* Fondo azul claro semi-transparente */
+}
+
+form {
+  /* Configura el formulario para estar centrado y con un ancho máximo */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+  max-width: 350px; /* Ancho máximo del formulario */
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-bottom: 100px; /* Espaciado inferior */
+}
+
+form label {
+  /* Estilo para las etiquetas dentro del formulario */
+  display: block; /* Cada etiqueta ocupa toda una línea */
+  margin-bottom: 5px; /* Espaciado inferior pequeño */
+}
+
+form input,
+form textarea {
+  /* Estilo compartido para campos de entrada y áreas de texto */
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 10px; /* Espaciado inferior */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+form button {
+  /* Estilo específico para el botón del formulario */
+  width: 50%; /* El botón ocupa el 50% del ancho del formulario */
+  margin-left: 25%; /* Centra el botón horizontalmente */
+}
+
+footer {
+  /* Estilo para el pie de página */
+  text-align: center; /* Centra el texto */
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 20px 0; /* Espaciado interno vertical */
+  position: fixed; /* Fija el pie de página en la parte inferior de la ventana */
+  bottom: 0; /* Asegura que esté pegado a la parte inferior */
+  width: 100%; /* Ocupa todo el ancho de la ventana */
+}

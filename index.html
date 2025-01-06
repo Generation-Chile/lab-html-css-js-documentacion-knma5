@@ -1,36 +1,64 @@
 <!DOCTYPE html>
+<!-- Declara el tipo de documento como HTML5 -->
 <html lang="en">
+<!-- Inicia el documento HTML, especificando el idioma como inglés -->
 <head>
+  <!-- Encabezado de la página, contiene metadatos y enlaces -->
   <meta charset="UTF-8">
+  <!-- Especifica la codificación de caracteres como UTF-8 para soportar caracteres especiales -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Indica a los navegadores que usen el motor de renderizado más reciente disponible -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura la vista para dispositivos móviles, asegurando que el diseño sea responsive -->
   <title>Cohorte 17 - Fullstack Developers</title>
+  <!-- Título de la página que aparece en la pestaña del navegador -->
   <link rel="stylesheet" href="css.css">
+  <!-- Enlace a una hoja de estilos CSS externa -->
 </head>
 <body>
+  <!-- Cuerpo principal de la página -->
   <header>
+    <!-- Elemento de encabezado, generalmente usado para logotipos, menús o introducciones -->
   </header>
   <section id="cta">
+    <!-- Sección con el ID "cta" (Call To Action), destinada a destacar información importante -->
     <h1>¡Full Stack <span class="travel">Developers!</span></h1>
+    <!-- Título principal con una palabra resaltada mediante la clase "travel" -->
     <h2>Únete a nuestro equipo</h2>
+    <!-- Subtítulo que complementa al título principal -->
     <p>La comunidad de desarrolladores Full Stack Developers!</p>
+    <!-- Párrafo explicativo -->
     <button id="cta-form">¡Quiero saber más!</button>
+    <!-- Botón con el ID "cta-form" para llamar la atención del usuario -->
   </section>
   <section id="form">
+    <!-- Sección con el ID "form", contiene un formulario de contacto -->
     <h2>Contáctanos para obtener más información sobre nuestra comunidad</h2>
+    <!-- Subtítulo para el formulario -->
     <form>
+      <!-- Inicia el formulario -->
       <label for="name">Nombre:</label>
+      <!-- Etiqueta para el campo de entrada del nombre -->
       <input type="text" id="name" name="name" required>
+      <!-- Campo de texto para el nombre, marcado como obligatorio -->
       <label for="email">Correo electrónico:</label>
+      <!-- Etiqueta para el campo de entrada del correo electrónico -->
       <input type="email" id="email" name="email" required>
+      <!-- Campo de texto para el correo electrónico, marcado como obligatorio -->
       <label for="message">Mensaje:</label>
+      <!-- Etiqueta para el área de texto del mensaje -->
       <textarea id="message" name="message" required></textarea>
+      <!-- Área de texto para que el usuario escriba un mensaje, marcado como obligatorio -->
       <button type="button" onclick="presionarBoton()">Enviar</button>
+      <!-- Botón con un evento onclick que ejecuta la función "presionarBoton" al hacer clic -->
     </form>
   </section>
   <footer>
+    <!-- Pie de página del documento -->
     <p>&copy; 2024 FullStack Developers. Todos los derechos reservados.</p>
+    <!-- Mensaje de derechos reservados con el símbolo de copyright -->
   </footer>
   <script src="accion.js"></script>
+  <!-- Enlace a un archivo JavaScript externo que contiene funcionalidades para la página -->
 </body>
 </html>
