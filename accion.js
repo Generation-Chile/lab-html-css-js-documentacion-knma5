@@ -29,7 +29,7 @@ function presionarBoton() {
   alert('Gracias por enviar tu mensaje, revisa la consola por favor');
   console.log({ nombre, email, mensaje }); // Imprime un objeto con los valores capturados en la consola
 
-  // Limpia los campos del formulario estableciendo sus valores en cadenas vacías
+  // Limpia los campos del formulario estableciendo sus valores en cadenas vacías.
   document.getElementById('name').value = '';
   document.getElementById('email').value = '';
   document.getElementById('message').value = '';
